@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <title>Awesome Login Page</title>
-    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -22,10 +21,10 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>Or use your email for registration</span>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <button>Sign Up</button>
+                <input type="text" id="signUpName" placeholder="Name" />
+                <input type="email" id="signUpEmail" name="suEmail" placeholder="Email" />
+                <input type="password" id="signUpPswd" name="suPsswd" placeholder="Password" />
+                <button id="viaSignUp">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in">
@@ -38,10 +37,10 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>Or use your email to login</span>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
+                <input type="email" id="signInEmail" name="emailId" placeholder="Email" />
+                <input type="password" id="signInPswd" name="psswd" placeholder="Password" />
                 <a href="#">Forgot Password?</a>
-                <button>Sign In</button>
+                <button id="viaSignIn">Sign In</button>
             </form>
         </div>
         <div class="toggle-container">
